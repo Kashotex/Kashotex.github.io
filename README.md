@@ -1,7 +1,7 @@
 # Kashotex's Official [Website](https://www.kashotex.net)
 
 
-![image](https://www.kashotex.net/Images/new%20thing.PNG)
+![image](https://www.kashotex.net/Images/ss.png)
 
 **Check out my website here : https://www.kashotex.net**
 
