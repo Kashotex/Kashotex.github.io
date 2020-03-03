@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "Imperfecta Regular";
+    src: url("https://www.kashotex.net/assets/fonts/imperfecta.ttf") format("truetype");
+}
+
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: black;
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.81)    
+}
+
+.nav .divider {
+    margin-top: 30px;
+    border: none;
+    height: 2px;
+    color: white;
+    background-color: white;
+}
+
+.nav .content {
+    padding: 3px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav a {
+    background-color: transparent;
+}
+
+i.arrow {
+    border: solid white;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 18px;
+    top: 6px;
+
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: 60px;
+    width: 60px;
+    left: 34px;
+}
+
+
+
+
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    left: 21px;
+    top: 100%;
+    margin-left: -60px;
+    width: 100%;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #e6e6e6;
+    opacity: .7;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 17px 16px;
+    text-align:center;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: flex;}
+.dropdown:hover {cursor: pointer;}
+
+
+
+
+.logo {
+    /*position: absolute;
+    width: 279px;
+    height: 46px;
+    left: 3px;
+    top: 26px;*/
+    background: url(img/lol.png) 40%
+    
+}
+
+
+.logo321 {
+    /*position: absolute;
+    width: 312px;
+    height: 46px;
+    left: 88px;
+    top: 26px;*/
+    background: url(img/d.png) 40%
+    
+}
+
+@font-face {
+    font-family: "The Bold Font";
+    src: url("https://www.kashotex.net/assets/fonts/theboldfont.ttf") format("truetype");
+}
+
+.boldboi {
+    position: absolute;
+    width: 298px;
+    height: 159px;
+    left: 104px;
+    top: -129px;
+    
+    font-family: "The Bold Font";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54.9862px;
+    line-height: 55px;
+    display: flex;
+    align-items: flex-end;
+    
+    color: #FFFFFF;
+    }
+
+
+
+
+.mainhead {
+
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: -5px;
+    
+    background: black;
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.81)    
+
+}
+
+.line {
+    position: absolute;
+width: 100%;
+height: 3px;
+
+top: 20px;
+
+background: #C4C4C4;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+html {
+    --purple: #505076;
+    --purple-light: #696991;
+    --purple-dark:#1a1d3d;
+    --text-shadow-col: #2b2b4d;
+    height:100%;
+}
+body {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    background: url("https://www.kashotex.net/assets/img/bgr.png");
+    color:#fff;
+    font-family:"Imperfecta Regular";
+    font-size: 16px;
+    text-shadow: 1px 1px var(--text-shadow-col), -1px 1px var(--text-shadow-col), 1px -1px var(--text-shadow-col), -1px -1px var(--text-shadow-col), -1px 0px var(--text-shadow-col), 1px 0px var(--text-shadow-col), 0px -1px var(--text-shadow-col), 0px 1px var(--text-shadow-col);
+    text-rendering: optimizeSpeed; 
+    -webkit-font-smoothing: none;
+}
+::selection {
+    background:rgba(241, 183, 23, 0)
+}
+a {
+    color:#ddd;
+    background:#ffd900c5;
+    text-decoration:none;
+    padding:0
+    
+
+
+}
+
+
+
+
+header {
+    color:#ddd;
+    text-shadow:#000 0 0 10px 10px;
+    background-attachment:fixed;
+    width:fit-content;
+    margin:0 auto;
+    font-size:40px;
+}
+hr {
+    border:0;
+    border-top:5px solid #393939;
+    margin:0;
+    padding:0;
+}
+hr.small {
+    margin: 5px;
+}
+
+.box {
+    position: relative;
+    left: calc(50% - 674px/2 + 1px);
+    top: 100px;
+    max-width:640px;
+    background:#1A1A1A;
+    border:solid 6px #393939;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding:15px;
+    margin:15px;
+    text-align:center
+    
+}
+#content {
+  /* don't center align because that screws with pixel fonts */
+  padding:center;
+}
+
+.homepage-content {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+aside ul  {
+list-style:none;
+margin:0;
+padding:0;
+justify-content: space-between;
+
+}
+
+
+.header-col {
+    flex:1;
+    line-height:1.4
+}
+
+
+
+aside li {
+    display: inline-block;
+}
+.footer {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:auto;
+    background:black;
+    box-sizing: border-box;
+    padding:8px;
+    width:100%;
+    color:rgb(255, 255, 255);
+    text-shadow:none;
+}
+.footer a {
+    color:white;
+}
+.header {
+    display:flex;
+    flex-flow:column;
+}
+

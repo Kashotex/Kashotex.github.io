@@ -1,0 +1,50 @@
+@import url('https://bdsources.github.io/sourcecheck/code.css');
+
+:root {
+	
+	--background-message-hover:rgba(0,0,0,0);
+	--background-mentioned-hover:rgba(250,166,26,0.05)
+}
+
+.da-emojiSeparator, .da-emojiButton, .da-timestampVisibleOnHover {
+    display: none;
+    visibility: hidden;
+}
+
+div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="message"] > div[class*="buttonContainer"] > div[class*="buttons"] {
+  padding-right: 10px;
+  padding-left: 0;
+  top: 0;
+}
+
+div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="message"] > div[class*="buttonContainer"] > div[class*="buttons"] > div[class*="wrapper"] {
+  height: 22px;
+  background-color: transparent;
+  box-shadow: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* REACTION REVERT */
+
+div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="message"] > div[class*="buttonContainer"] > div[class*="buttons"] > div[class*="wrapper"] > div[class*="emojiButton"],
+div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="message"] > div[class*="buttonContainer"] > div[class*="buttons"] > div[class*="wrapper"] > div[class*="emojiSeparator"] {
+  display: none;
+}
+
+div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="message"] > div[class*="buttonContainer"] > div[class*="buttons"] > div[class*="wrapper"] > div[class*="button"] {
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  padding: 0;
+  background-color: transparent!important;
+}
+
+div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="message"] > div[class*="buttonContainer"] > div[class*="buttons"] > div[class*="wrapper"] > div[class*="button"] svg {
+  height: 16px;
+  width: 16px;
+}
+
+div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="message"] > div[class*="buttonContainer"] > div[class*="buttons"] > div[class*="wrapper"] > div[class*="button"] svg[name="OverflowMenuHorizontal"] {
+  transform: rotate(90deg);
+}
