@@ -1,1 +1,0 @@
-# kashotex.github.io
